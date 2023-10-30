@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Fernández</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        * {
+            font-family: 'Poppins', sans-serif;
+			padding: 0px;
+			margin: 0px;
+			font-family: 'Rajdhani', sans-serif;
+		}
+		body {
+			background-color: rgb(48, 48, 48);
+		}
+		.home {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.in-flex {
+			flex: 1;
+			min-width: 250px;
+		}
+		.in-flex:first-child {
+			flex: 2;
+			padding: 25px;
+			background-color: rgb(48, 48, 48);
+			margin: 20px;
+			margin-bottom: 0px;
+		}
+		.in-flex div {
+			padding: 25px;
+			/**background-color: black;*/
+			margin: 20px;
+		}
+        /**.borde2 {
+			border: solid rgb(212, 212, 212);
+            border-radius: 20px;
+		}*/
+        .info {
+            background-color: rgb(221, 221, 221);
+            border-radius: 20px;
+        }
+        .css-button-3d--blue {
+            min-width: 130px;
+            height: 40px;
+            color: white;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background: #f1f1f1;
+            box-shadow: 0 5px rgb(139, 139, 139);
+        }
+        .css-button-3d--blue:hover {
+            box-shadow: 0 3px #858585;
+            top: 1px;
+        }
+        .css-button-3d--blue:active {
+            box-shadow: 0 0 #868686;
+            top: 5px;
+        }
+        .info {
+            color: black;
+        }
+    </style>
+        <seccion class="home">
+            <div class="in-flex">
+                <center>
+                    <div class="info">
+                        <h1><u> INFOGRAFIA </u></h1>
+                        <br>
+                        <h3> <u>Alumno</u> : Alejandro Fernández <br> <u>Curso</u> : 1º 3ra <br> <u>Colegio</u> : E.E.T Nº 21 "Gral.M.Belgrano" <br> <u>Materia</u> : Informática</h3>
+                        <br><h2><u>Descargar infografia</u></h1>
+                        <br>
+                    </div>
+                    <button class="css-button-3d--blue"><a href="Fernandez.docx">Descargar</a></button>
+                </center>
+            </div>
+        </seccion>
+</body>
+</html>
